@@ -1,12 +1,6 @@
 const https = require('https');
 const sendMail = require('./sendMail.js')
 
-let dataToSend = []
-
-const APICall = () => {
-
-}
-
 const fetchUserDataAndSendMail = (user) => {
     let today = new Date();
     let nextDate = new Date(today);

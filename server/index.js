@@ -1,12 +1,12 @@
-const express = require('express')
-var cors = require('cors')
-var admin = require("firebase-admin");
+const express = require('express');
+const cors = require('cors');
+const admin = require("firebase-admin");
+const schedule = require('node-schedule');
 const app = express()
 const port = 3001
 const serviceAccount = require("./permission.json");
 const fetchData = require('./fetchData.js')
 app.use(cors())
-
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -31,13 +31,13 @@ const fetchUsers = () => (() => {
           response.push(selectedItem);
         }
         fetchData(response)
-        // console.log(response);
       });
     } catch (error) {
       console.log(error);
     }
   })();
-fetchUsers()
+schedule.scheduleJob('00 00 12 * * 0-6', fetchUsers)
+// fetchUsers()
 
 app.get('', cors(), function (req, res, next) {
   res.json({msg: 'App is running'})
