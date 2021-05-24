@@ -23,10 +23,13 @@
 
 > **App will be started on <a href="https://localohost:3000">https://localohost:3000</a>**
 
-<h3>Below image shows the maine page, here information is fetched by pincode, because pincode is entered. If you want to fetch the data by district than, simply remove the value from 
-pincode>/h3>
+<h3>Below image shows the main page, here information is fetched by pincode, because the toggel "fetch data by district" is not selected/h3>
 <br></br>
-<img src="https://user-images.githubusercontent.com/33174056/117564765-4d7fc180-b0cb-11eb-8c99-dcb9d7319a7c.png" />
+<img src="https://user-images.githubusercontent.com/33174056/119399144-25f93d80-bcf6-11eb-9b7b-773fc2390c3b.png" />
+<br></br>
+<h3>Below image shows slots information fetched by district, because toggel is selected now/h3>
+ <br></br>
+<img src="https://user-images.githubusercontent.com/33174056/119399198-3ad5d100-bcf6-11eb-9f29-371b5a9bf202.png" />
 
 <h3>Below image show the form where user can enter their details for email notification</h3>
 
