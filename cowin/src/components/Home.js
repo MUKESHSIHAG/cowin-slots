@@ -188,7 +188,7 @@ function Home(props) {
             <form style={{marginTop:"5%", paddingBottom:"15%"}}>
                 {!isToggel ? 
                     <div className="form-group col-md-6" >
-                        <label htmlFor="pincode">Pincode</label>
+                        <label htmlFor="pincode">Pincode <span style={{color:"red"}}>*</span></label>
                         <input onChange={(e) => {setPincode(e.target.value)}} value={pincode} type="text" className="form-control" placeholder="Enter Pincode" />
                     </div> 
                     :
@@ -202,7 +202,7 @@ function Home(props) {
                         </select>
                     </div>
                     <div className="form-group col-md-6" >
-                        <label htmlFor="district">District</label>
+                        <label htmlFor="district">District <span style={{color:"red"}}>*</span></label>
                         <select class="form-control" onChange={handleDistrict} value={district}>
                         {districts && districts.map((item, key) => 
                             <option key={key} id={item.district_id}>{item.district_name}</option>
@@ -212,7 +212,7 @@ function Home(props) {
                     </>
                     }
                 <div className="form-group col-md-6" >
-                    <label htmlFor="date-input">Date</label>
+                    <label htmlFor="date-input">Date <span style={{color:"red"}}>*</span></label>
                     <input className="form-control" onChange={handleDate} type="date" value={date} />                    
                     <span style={{color:"red"}}>{msg}</span>
                 </div>
