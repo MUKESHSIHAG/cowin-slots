@@ -25,11 +25,11 @@
 
 <h3>Below image shows the main page, here information is fetched by pincode, because the toggel "fetch data by district" is not selected/h3>
 <br></br>
-<img src="https://user-images.githubusercontent.com/33174056/119399144-25f93d80-bcf6-11eb-9b7b-773fc2390c3b.png" />
+<img src="https://user-images.githubusercontent.com/33174056/119492486-c3975000-bd7c-11eb-8b13-39ddbb4760ae.png" />
 <br></br>
 <h3>Below image shows slots information fetched by district, because toggel is selected now/h3>
  <br></br>
-<img src="https://user-images.githubusercontent.com/33174056/119399198-3ad5d100-bcf6-11eb-9f29-371b5a9bf202.png" />
+<img src="https://user-images.githubusercontent.com/33174056/119494498-fe9a8300-bd7e-11eb-82c2-3b340d2f0c85.png" />
 
 <h3>Below image show the form where user can enter their details for email notification</h3>
 
