@@ -1,5 +1,5 @@
 # cowin-slots
-## Cowin folder stores the code of frontend. I have developed this using Reactjs. To get the details user have to either enter the pincode or district and data field is mandatory
+## Cowin folder stores the code of frontend. I have developed this using Reactjs. To get the details user have to either enter the pincode or district and date field is mandatory
 <h5>For the email notification part, I have created a form where user have to enter, name, email and pincode to get the notification</h5>
 <p>This user information is stored in firebase, so if you try it on your system, then it may give error beacause I have added the firebase credentail file in .gitignore</p>
 <p>To send email I have used nodejs, it's code is in server folder. here first I have connected my application to firebase and fetch all users</p>
